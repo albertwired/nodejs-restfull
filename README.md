@@ -63,36 +63,36 @@ POST /auth/login 401 86.571 ms - 47
 ### Postman Result
 #### Sign up
 
-![N|Solid(http://preview.ibb.co/fGDUZn/Screenshot_from_2018_04_02_19_21_16.png)
+![N|Solid](http://preview.ibb.co/fGDUZn/Screenshot_from_2018_04_02_19_21_16.png)
 
 #### Log in
 
-![N|Solid(http://preview.ibb.co/nN93un/Screenshot_from_2018_04_02_19_20_59.png)
+![N|Solid](http://preview.ibb.co/nN93un/Screenshot_from_2018_04_02_19_20_59.png)
 
 #### Get Products
 
-![N|Solid(http://preview.ibb.co/e1Ok77/Screenshot_from_2018_04_02_19_20_32.png)
+![N|Solid](http://preview.ibb.co/e1Ok77/Screenshot_from_2018_04_02_19_20_32.png)
 
 #### Get Single Product
 
-![N|Solid(http://preview.ibb.co/kCWGEn/Screenshot_from_2018_04_02_19_20_03.png)
+![N|Solid](http://preview.ibb.co/kCWGEn/Screenshot_from_2018_04_02_19_20_03.png)
 
 #### Create Product
 
-![N|Solid(http://preview.ibb.co/d1CdS7/Screenshot_from_2018_04_02_19_19_49.png)
+![N|Solid](http://preview.ibb.co/d1CdS7/Screenshot_from_2018_04_02_19_19_49.png)
 
 #### Update Product
 
-![N|Solid(http://preview.ibb.co/fNcZ0S/Screenshot_from_2018_04_02_19_19_27.png)
+![N|Solid](http://preview.ibb.co/fNcZ0S/Screenshot_from_2018_04_02_19_19_27.png)
 
 #### Delete Product
-![N|Solid(http://preview.ibb.co/n4hZ0S/Screenshot_from_2018_04_02_19_18_57.png)
+![N|Solid](http://preview.ibb.co/n4hZ0S/Screenshot_from_2018_04_02_19_18_57.png)
 
 
 ### Question & Answer
 1. Desain Stack and tools
 	- Desain aplikasi
-	![N|Solid(http://image.ibb.co/dafU0S/microserv.jpg)
+	![N|Solid](http://image.ibb.co/dafU0S/microserv.jpg)
     
     Desain tersebut menjelaskan alur komunikasi data dari _mobile phone_ ke server menggunakan protokol HTTP dengan arsitektur RESTFull. Pilihan tersebut dikarenakan saat ini metode standar yang digunakan untuk interaksi antar aplikasi menggunakan API.
     Pada _Auth Service_ digunkan untuk proses registrasi dan login guna mendapatkan akses token. Dan pada _Auth Gateway_ digunakan untuk proses otentifikasi kedalam servis product dengan model _token based_.

@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon ./bin/www",
-    "test": "mocha test/integration/*"
+    "test": "mocha test/integration/*",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",

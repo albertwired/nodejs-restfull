@@ -16,8 +16,6 @@ module.exports = (app) => {
   app.post('/api/v1/products',authMiddleware,controllers.products.create);
   app.put('/api/v1/products/:id?',authMiddleware,controllers.products.update);
   app.delete('/api/v1/products/:id?',authMiddleware,controllers.products.destroy);
-
-
 };
 var authMiddleware = (req,res,next) =>{
 	var token  = req.headers['authorization'];

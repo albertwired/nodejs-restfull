@@ -63,43 +63,36 @@ POST /auth/login 401 86.571 ms - 47
 ### Postman Result
 #### Sign up
 
-![N|Solid(https://drive.google.com/file/d/1C8tVL86CgcGMshCZToBVCubcdNHFRe8m/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/fGDUZn/Screenshot_from_2018_04_02_19_21_16.png)
 
 #### Log in
 
-![N|Solid(https://drive.google.com/file/d/1l__lHi-hqaAgBzV-HFvq-EJGmnxYiA5J/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/nN93un/Screenshot_from_2018_04_02_19_20_59.png)
 
 #### Get Products
 
-![N|Solid(https://drive.google.com/file/d/13UdM975gdt6cgtszFz1UP7zC7z-JaL19/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/e1Ok77/Screenshot_from_2018_04_02_19_20_32.png)
 
 #### Get Single Product
 
-![N|Solid(https://drive.google.com/file/d/1tseaN1UdKLx6gCwaJ9ZJ30CoJxzb_XhV/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/kCWGEn/Screenshot_from_2018_04_02_19_20_03.png)
 
 #### Create Product
 
-![N|Solid(https://drive.google.com/file/d/1f39v2ADhTlseSEnymgDxM-O-74jeVcbq/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/d1CdS7/Screenshot_from_2018_04_02_19_19_49.png)
 
 #### Update Product
 
-![N|Solid(https://drive.google.com/file/d/1k9uosnMYqNzU92WT03U1bDpM3N4KNGyW/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/fNcZ0S/Screenshot_from_2018_04_02_19_19_27.png)
 
 #### Delete Product
-![N|Solid(https://drive.google.com/file/d/1IxIwSlSVsGAcTAH67DFS-JzVnSaIuAmD/view?usp=sharing
-)
+![N|Solid(http://preview.ibb.co/n4hZ0S/Screenshot_from_2018_04_02_19_18_57.png)
 
 
 ### Question & Answer
 1. Desain Stack and tools
 	- Desain aplikasi
-	![N|Solid(https://drive.google.com/file/d/1p7aMKzNrbFPHjnMolS_fQQ359AySvXra/view?usp=sharing)
+	![N|Solid(http://image.ibb.co/dafU0S/microserv.jpg)
     
     Desain tersebut menjelaskan alur komunikasi data dari _mobile phone_ ke server menggunakan protokol HTTP dengan arsitektur RESTFull. Pilihan tersebut dikarenakan saat ini metode standar yang digunakan untuk interaksi antar aplikasi menggunakan API.
     Pada _Auth Service_ digunkan untuk proses registrasi dan login guna mendapatkan akses token. Dan pada _Auth Gateway_ digunakan untuk proses otentifikasi kedalam servis product dengan model _token based_.
